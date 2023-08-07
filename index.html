@@ -2,149 +2,96 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Atikha Binti Rasol - Portfolio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f2f2f2;
-      margin: 0;
-      padding: 0;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
 
-    header {
-      background-color: #f2f2f2;
-      text-align: center;
-      padding: 30px;
-    }
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
 
-    .profile-picture {
-      width: 120px;
-      height: 150px;
-      border-radius: 50%;
-    }
+        .profile-picture {
+            width: 120px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto;
+            display: block;
+            border: 4px solid #007bff;
+            margin-bottom: 10px;
+        }
 
-    .about-me {
-      background-color: #f2f2f2;
-      padding: 30px;
-      text-align: center;
-    }
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
 
-    .category {
-      background-color: #fff;
-      border-radius: 5px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-      padding: 20px;
-      margin: 20px;
-    }
+        .social-icons img {
+            width: 30px;
+            height: 30px;
+            margin: 0 10px;
+        }
 
-    footer {
-      background-color: #333;
-      color: #fff;
-      text-align: center;
-      padding: 10px;
-    }
-
-    .footer-copyright {
-      margin-top: 20px;
-    }
-
-    .footer-copyright a {
-      color: #fff;
-      text-decoration: none;
-    }
-
-    .footer-copyright a:hover {
-      text-decoration: underline;
-    }
-
-    @media only screen and (min-width: 576px) {
-      .container {
-        max-width: 540px;
-        margin: 0 auto;
-      }
-    }
-
-    @media only screen and (min-width: 768px) {
-      .container {
-        max-width: 720px;
-        margin: 0 auto;
-      }
-    }
-
-    @media only screen and (min-width: 992px) {
-      .container {
-        max-width: 960px;
-        margin: 0 auto;
-      }
-    }
-
-    @media only screen and (min-width: 1200px) {
-      .container {
-        max-width: 1140px;
-        margin: 0 auto;
-      }
-    }
-  </style>
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 
 <body>
-  <header>
-    <img src="me.jpg" alt="Profile Picture" class="profile-picture">
-    <h1>Name: Atikha Binti Rasol</h1>
-    <p>Occupation: Lecturer</p>
-    <p>Institution: Kolej Komuniti Muar</p>
-    <p>Qualification: Degree in Islamic Studies</p>
-    <p>Subjects taught: Tasawwur Islam, Perkahwinan dalam Islam, Syariah Islam</p>
-    <p>Skills: Microsoft Office, Guidance and Counselling</p>
-    <p>Contact: atikahkkmuar@gmail.com</p>
-  </header>
+    <div class="container">
+        <!-- About Me Section -->
+        <div class="card">
+            <img class="profile-picture" src="me.jpg" alt="My Picture">
+            <h3 class="text-center">Name: Siti Nurul Atikha Binti Rasol</h3>
+            <p class="text-center"><strong>Occupation:</strong> Pensyarah</p>
+            <p class="text-center"><strong>Institution:</strong> Kolej Komuniti Muar</p>
+            <p class="text-center"><strong>Qualification:</strong> Degree in Islamic Studies & Master Education Guidance and Counselling</p>
+            <p class="text-center"><strong>Subjects taught:</strong> Pendidikan Islam</p>
+            <p class="text-center"><strong>Skills:</strong> Decision Making, Problem Solving, Communication Skill, Stress Management</p>
+            <p class="text-center"><strong>Contact:</strong> atikahkkmuar@gmail.com</p>
+        </div>
 
-  <div class="about-me">
-    <h2>About Me</h2>
-    <p>I am a lecturer at Kolej Komuniti Muar with a degree in Islamic Studies. I specialize in teaching Tasawwur
-      Islam, Perkahwinan dalam Islam, and Syariah Islam. Additionally, I possess skills in Microsoft Office and
-      Guidance and Counselling.</p>
-  </div>
+        <!-- Social Media Section -->
+        <div class="card">
+            <h4 class="text-center">Follow me on social media:</h4>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/ummuasmasolehah" target="_blank">
+                    <img src="https://www.cdnlogo.com/logos/f/74/facebook.svg" alt="Facebook">
+                </a>
+                <a href="https://instagram.com/puan_atikha" target="_blank">
+                    <img src="https://www.cdnlogo.com/logos/i/92/instagram.svg" alt="Instagram">
+                </a>
+                <a href="https://tiktok.com/@puan_atikha" target="_blank">
+                    <img src="https://www.cdnlogo.com/logos/t/60/tiktok.svg" alt="TikTok">
+                </a>
+            </div>
+        </div>
 
-  <div class="container">
-    <div class="category">
-      <h2>LinkedIn</h2>
-      <p><a href="https://www.linkedin.com/in/ariffinmzin/" target="_blank">LinkedIn Profile</a></p>
-      <a href="https://cdnlogo.com/logo/linkedin-icon_39423.html"><img src="https://www.cdnlogo.com/logos/l/66/linkedin-icon.svg" width="30px" height="30px" style="margin: 0 10px;"></a>
+        <!-- Footer Section -->
+        <div class="footer">
+            &copy; 2023 Your Name. All rights reserved.
+        </div>
     </div>
 
-    <div class="category">
-      <h2>Facebook</h2>
-      <p><a href="https://www.facebook.com/ummuasmasolehah" target="_blank">Facebook Profile</a></p>
-      <a href="https://cdnlogo.com/logo/facebook-square-icon_429.html"><img src="https://www.cdnlogo.com/logos/f/74/facebook.svg" width="30px" height="30px" style="margin: 0 10px;"></a>
-    </div>
-
-    <div class="category">
-      <h2>Twitter</h2>
-      <p><a href="https://twitter.com/" target="_blank">Twitter Profile</a></p>
-      <a href="https://cdnlogo.com/logo/twitter_40255.html"><img src="https://www.cdnlogo.com/logos/t/45/twitter.svg" width="30px" height="30px" style="margin: 0 10px;"></a>
-    </div>
-
-    <div class="category">
-      <h2>Instagram</h2>
-      <p><a href="https://instagram.com/" target="_blank">Instagram Profile</a></p>
-      <a href="https://cdnlogo.com/logo/instagram_475.html"><img src="https://www.cdnlogo.com/logos/i/92/instagram.svg" width="30px" height="30px" style="margin: 0 10px;"></a>
-    </div>
-
-    <div class="category">
-      <h2>TikTok</h2>
-      <p><a href="https://tiktok.com/" target="_blank">TikTok Profile</a></p>
-      <a href="https://cdnlogo.com/logo/tiktok_550.html"><img src="https://www.cdnlogo.com/logos/t/60/tiktok.svg" width="30px" height="30px" style="margin: 0 10px;"></a>
-    </div>
-  </div>
-
-  <footer>
-    <div class="footer-copyright">
-      <p>&copy; 2023 Atikha Binti Rasol | All rights reserved.</p>
-    </div>
-  </footer>
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
